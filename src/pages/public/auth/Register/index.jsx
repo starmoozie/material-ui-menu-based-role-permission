@@ -12,10 +12,10 @@ import { Link as RouterLink, useNavigate, useLocation } from "react-router-dom";
 // import { fetchData } from '../../../_utils/helpers';
 
 const TextField = lazy(
-  async () => await import("../../../components/fields/TextField")
+  async () => await import("../../../../components/fields/Text/index.jsx")
 );
 const PasswordField = lazy(
-  async () => await import("../../../components/fields/PasswordField")
+  async () => await import("../../../../components/fields/Password/index.jsx")
 );
 
 export const schema = yup
