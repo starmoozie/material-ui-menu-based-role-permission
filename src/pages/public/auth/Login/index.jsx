@@ -51,7 +51,8 @@ const Login = () => {
   const submit = async (body) => {
     // console.log(body);
     login("token", () => {
-      navigate(from, { replace: true });
+      window.location.reload()
+      // navigate(from, { replace: true });
     });
     // await fetchData('/login', 'POST', body)
     // .then((response) => {
